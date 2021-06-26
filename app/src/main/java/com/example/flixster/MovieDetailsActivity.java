@@ -77,7 +77,7 @@ public class MovieDetailsActivity extends AppCompatActivity {
                     .into(ivPosterImage);
         }
 
-        // Add functionality to poster
+        // Add interactivity to poster image
         ivPosterImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

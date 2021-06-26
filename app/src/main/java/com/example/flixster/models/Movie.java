@@ -31,7 +31,7 @@ public class Movie {
         id = jsonObject.getInt("id");
     }
 
-    // Iterates through the JSON array and constructs a movie for each element
+    // Iterate through the JSON array and constructs a movie for each element
     public static List<Movie> fromJsonArray(JSONArray movieJsonArray) throws JSONException {
         List<Movie> movies = new ArrayList<>();
         for (int i = 0; i < movieJsonArray.length(); i += 1) {

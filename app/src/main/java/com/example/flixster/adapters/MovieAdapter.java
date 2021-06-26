@@ -73,7 +73,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
         public ViewHolder(@NonNull @NotNull View itemView) {
             super(itemView);
 
-            // Retrieving components from UI
+            // Retrieve components from UI
             ivPoster = (ImageView) itemView.findViewById(R.id.ivPoster);
             tvTitle = (TextView) itemView.findViewById(R.id.tvTitle);
             tvOverview = (TextView) itemView.findViewById(R.id.tvOverview);

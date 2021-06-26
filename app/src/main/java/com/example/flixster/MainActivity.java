@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                 Log.d("MainActivity", "onSuccess");
                 JSONObject jsonObject = json.jsonObject;
                 try {
-                    // Parse API call response for useful info
+                    // Parse API call response for movie info
                     JSONArray results = jsonObject.getJSONArray("results");
                     Log.i("MainActivity", "Results: " + results.toString());
                     movies.addAll(Movie.fromJsonArray(results));
