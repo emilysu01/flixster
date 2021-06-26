@@ -47,7 +47,7 @@
         android:ellipsize="end"
         android:fontFamily="@font/nunitoregular"
         android:lineSpacingExtra="5dp"
-        android:maxLines="7"
+        android:maxLines="6"
         android:textColor="#5AA9E6"
         android:typeface="sans"
         app:fontFamily="@font/nunitoregular"
