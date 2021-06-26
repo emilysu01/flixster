@@ -24,7 +24,7 @@ The following **stretch** features are implemented:
 
 The following **additional** features are implemented:
 
-* [x] Added formatting to show only a preview (7 lines of text) of the movie overview on the main description page using elipses.
+* [x] Added formatting to show only a preview of the movie overview (6 lines of text followed by elipses) on the main activity page.
 
 ## Video Walkthrough
 
