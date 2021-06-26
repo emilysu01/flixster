@@ -24,19 +24,25 @@ The following **stretch** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [x] Added formatting to show only a preview (7 lines of text) of the movie overview on the main description page using elipses.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with [Kap](https://getkap.co/).
+GIF created with [LICEcap](https://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Learned:
+- How to use intents and pass info between activities
+- How to make API calls
+
+Challenges:
+- Ran into issues with the API call retrieving the Youtube video taking too long while the Java code continued to execute, causing NullPointerExceptions because the Youtube video URL variable wasn't correctly set (ended up putting everything that relied on the Youtube video URL in the same try/catch block as the API call so any commands requiring the Youtube video URL wouldn't start executing until after the Youtube video URL was correctly set)
+
 
 ## Open-source libraries used
 
